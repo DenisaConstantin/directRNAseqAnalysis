@@ -10,10 +10,10 @@ The first script, script1.sh, processes reads stored in FASTQ files using a prov
 ### Dependencies
 This script requires the following tools:
 
-NanoPlot for quality control (De Coster and Rademakers, 2023)
-minimap2 for read alignment (Li, 2018)
-samtools for SAM/BAM file processing
-NanoCount for transcript quantification (Gleeson et al., 2022)
+NanoPlot for quality control (https://github.com/wdecoster/NanoPlot)
+minimap2 for read alignment (https://github.com/lh3/minimap2)
+samtools for SAM/BAM file processing (https://github.com/samtools/samtools)
+NanoCount for transcript quantification (https://github.com/a-slide/NanoCount)
 
 ### Workflow
 Read Alignment: Reads are aligned to the reference transcripts using minimap2.
